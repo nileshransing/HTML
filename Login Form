@@ -7,7 +7,7 @@
     background="./workout-gym-fitness-equipments-background-with-copy-space-text_916191-122553.jpg"
   >
     <center>
-      <h1>Gym Form <style></style></h1>
+      <h1>Gym Membership Form <style></style></h1>
       <label
         ><b>Name:</b>
         <input type="text" name="Name" id="" placeholder="Enter Your Name"
@@ -38,6 +38,24 @@
       /></label>
       <br /><br />
 
+      <label></label>
+        <b>Height: </b
+        ><input
+          type="number"
+          name="  Height"
+          id=""
+          placeholder="Enter your height in cm"
+      /></label>
+      <br />
+
+      <label
+        ><b>Current weight:</b>
+        <input
+          type="number"
+          name="Your weight"
+          id=""
+          placeholder="Enter your weight in kg" /></label
+      ><br /><br />
       <label>
         <b>MobileNo:</b>
         <input
@@ -67,7 +85,7 @@
       ><br /><br />
 
       <label>
-        <b>Batch Time:</b> Morning
+        <b>BatchTime:</b> Morning
 
         <input type="checkbox" name="Batch Time" id="" />
         <input type="time" name="Batch Time" id="" /><br />
@@ -76,8 +94,16 @@
         <input type="time" name="Batch Time" id="" /> </label
       ><br /><br />
 
-      <button type="submit">Submit</button>
-      <button type="reset">Reset</button>
+      <button type="submit"><b>Submit</b></button>
+      <button type="reset"><b>Reset</b></button> <br /><br />
+
+      <label>
+        <textarea
+          name="Comment"
+          id=""
+          placeholder="Enter your comment"
+        ></textarea>
+      </label>
     </center>
   </body>
 </html>
