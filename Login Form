@@ -1,0 +1,83 @@
+<!DOCTYPE hrml>
+<html>
+  <head>
+    <title> </title>
+  </head>
+  <body
+    background="./workout-gym-fitness-equipments-background-with-copy-space-text_916191-122553.jpg"
+  >
+    <center>
+      <h1>Gym Form <style></style></h1>
+      <label
+        ><b>Name:</b>
+        <input type="text" name="Name" id="" placeholder="Enter Your Name"
+      /></label>
+      <br /><br />
+
+      <label>
+        <b>Email:</b>
+        <input
+          type="email"
+          name="Email"
+          id=""
+          placeholder="Enter your Email " /></label
+      ><br /><br />
+
+      <label
+        ><b>DOB:</b>
+        <input
+          type="date"
+          name="DOB"
+          id=""
+          placeholder=" Enter your birth Date" /></label
+      ><br /><br />
+
+      <label
+        ><b>Age:</b>
+        <input type="number" name="Age" id="" placeholder="Enter your Age"
+      /></label>
+      <br /><br />
+
+      <label>
+        <b>MobileNo:</b>
+        <input
+          type="tel"
+          name="MobileNo"
+          id=""
+          placeholder="Enter your MobileNo"
+        /> </label
+      ><br /><br />
+      <label
+        ><b>Gender:</b> Male
+        <input type="radio" name="Gender" id="" /> Female<input
+          type="radio"
+          name="Gender"
+          id=""
+        /> </label
+      ><br /><br />
+
+      <label>
+        <b>Location:</b>
+        <select name="Location" id="">
+          <option value="Pimpri">Pimpri</option>
+          <option value="Chinchawad">Chinchawad</option>
+          <option value="Aakurdi">Aakurdi</option>
+          <option value="Nigadi">Nigadi</option>
+        </select> </label
+      ><br /><br />
+
+      <label>
+        <b>Batch Time:</b> Morning
+
+        <input type="checkbox" name="Batch Time" id="" />
+        <input type="time" name="Batch Time" id="" /><br />
+        Evening
+        <input type="checkbox" name="Batch Time" id="" />
+        <input type="time" name="Batch Time" id="" /> </label
+      ><br /><br />
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </center>
+  </body>
+</html>
