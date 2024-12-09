@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- saved from url=(0289)http://127.0.0.1:5500/patient.html?Full+Name=Nilesh+Sanjay+Ransing&Date+of+Birth=&Gender=on&Address=Takali+Kadevalit+Gavathan&Phone+Number=9921747532&Email+Address=ransingnilesh7532%40gmail.com&Name=&Relationship+to+Patient=&Phone+Number=&Primari+Insurance=&Policyholder+Name=&Policy+Name= -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Form</title>
+  </head>
+
+  <body>
+    <style>
+      section {
+        background-color: aqua;
+      }
+
+      header {
+        background: red;
+        color: black;
+      }
+    </style>
+    <form>
+      <center>
+        <header>
+          <h1><b>Patient Infirmation Form</b></h1>
+        </header>
+      </center>
+      <section>
+        <label><b><h3>Patient Information</h3></b></label>
+      </section>
+
+      <label><b>Full Name:</b><input type="text" name="Full Name" id=""></label>
+      <br><br>
+      <label><b>Date of Birth:
+          <input type="date" name="Date of Birth" id=""></b></label><br><br>
+      <label><b>Gender:</b> Male <input type="radio" name="Gender" id="">
+
+        Female <input type="radio" name="Gender" id=""> Other
+        <input type="radio" name="Gender" id="">
+      </label>
+      <br><br>
+      <label>
+        <b>Married Status:</b>
+        <select>
+          <option>Married</option>
+          <option>Unmarried</option>
+          <option>Divorced</option>
+          <option>Student</option>
+        </select>
+      </label>
+      <br><br>
+
+      <label><b>Present Address:
+          <input type="text" name="Address" id=""></b></label><br><br>
+      <label>
+        <b>Phone Number:</b>
+        <input type="tel" name="Phone Number" maxlength="10"> </label><br><br>
+      <label><b>Email Address:
+          <input type="email" name="Email Address" id=""></b></label><br><br>
+
+      <section>
+        <h3><b>Emargency Contact</b></h3>
+      </section>
+      <label> <b>Name: </b><input type="text" name="Name" id=""> </label><br><br>
+      <label><b>Relationship to Patient:</b>
+        <input type="text" name="Relationship to Patient" id=""></label><br><br>
+
+      <label><b>Phone Number:</b>
+        <input type="tel" name="Phone Number" id="" maxlength="10"></label><br><br>
+
+      <section>
+        <h3><b>Insurance Information</b></h3>
+      </section>
+      <label for="">
+        <b>Primari Insurance:</b><input type="text" name="Primari Insurance" id=""> </label><br><br>
+
+      <label><b>Policyholder Name:</b><input type="text" name="Policyholder Name" id=""></label><br><br>
+
+      <label for=""><b>Policy Number:</b>
+        <input type="text" name="Policy Name" id=""></label><br><br>
+      <center>
+        <button><b>Submit</b></button>
+        <button><b>Reset</b></button>
+      </center>
+    </form>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
