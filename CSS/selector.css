@@ -1,58 +1,96 @@
- /* Universal selector */
- *{
-    padding: 0;
-    margin: 0;
- }
-/* Type selector 
+/*1 Universal selector */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* 2)Type selector 
 tag select-- h1  */
- header{
-    background-color: aqua;
+header {
+  background-color: aqua;
 
-color: black;
-font-size: 45px;
-font-weight: bold;
+  color: black;
+  font-size: 45px;
+  font-weight: bold;
 }
 
-/* Class selector */
-.highlight{
-    background-color: #850404;
-    color: aliceblue;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style: italic;
+/* 3)Class selector */
+.highlight {
+  background-color: #850404;
+  color: aliceblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
 }
-/* Id selector */
+/* 4) Id selector */
 
-#header{
-    background-color: cornflowerblue;
-    color: blueviolet;
-    border: 10px solid black;
+#header {
+  background-color: cornflowerblue;
+  color: blueviolet;
+  border: 10px solid black;
 }
 
-/* Attribute selector */
+/* 5) Attribute selector */
 /* select atrribute eg- type="text" */
-input[type="text"]{
-    background-color: antiquewhite;
-    color: yellow;
- border: 8px solid red;
+input[type="text"] {
+  background-color: antiquewhite;
+  color: yellow;
+  border: 8px solid red;
+  margin: 59px;
+  padding: 20px;
 }
 
-/* decendent selector */
-  section p{
-    background-color: #f532c4;
-    color: white;
-    padding: 4px 12px;
+/* 6) decendent selector */
+section p {
+  background-color: #f532c4;
+  color: white;
+  margin: 10px;
+  padding: 4px 12px;
 }
-/* child selector */
-div > p{
-    background-color: black;
+/*7) child selector */
+div > p {
+  background-color: yellow;
+  margin: 20px;
+  padding: 10px;
 }
- /* adjecent sibling selector */
-h1+ p{
-    background-color: blanchedalmond;
-    font-style: italic;
+/* 8) adjecent sibling selector */
+h1 + p {
+  background-color: blanchedalmond;
+  font-style: italic;
 }
-/* pseudo class selector */
-a:hover{
-    background-color: #000;
-    color:wheat;
+
+a:hover {
+  background-color: #000;
+  color: wheat;
+  margin: 10px;
+  padding: 10px;
+}
+a.active {
+  background-color: aquamarine;
+  color: yellow;
+  font-family: Snap ITC;
+}
+/*
+ 10 pseudo element selector   
+*/
+p::first-letter {
+  font-style: italic;
+  font-weight: 15px;
+  background-color: gold;
+  padding: 4px;
+  margin: 4px;
+}
+/*
+ 11) grouping selector */
+
+h1,
+h2,
+h3 {
+  font-style: italic;
+  background-color: #faca2cac;
+  color: #000;
+  border-color: gold;
+  border-radius: 5px;
+  padding: 4px;
+  margin: 4px;
 }
