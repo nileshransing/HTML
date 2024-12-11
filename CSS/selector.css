@@ -1,0 +1,58 @@
+ /* Universal selector */
+ *{
+    padding: 0;
+    margin: 0;
+ }
+/* Type selector 
+tag select-- h1  */
+ header{
+    background-color: aqua;
+
+color: black;
+font-size: 45px;
+font-weight: bold;
+}
+
+/* Class selector */
+.highlight{
+    background-color: #850404;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+/* Id selector */
+
+#header{
+    background-color: cornflowerblue;
+    color: blueviolet;
+    border: 10px solid black;
+}
+
+/* Attribute selector */
+/* select atrribute eg- type="text" */
+input[type="text"]{
+    background-color: antiquewhite;
+    color: yellow;
+ border: 8px solid red;
+}
+
+/* decendent selector */
+  section p{
+    background-color: #f532c4;
+    color: white;
+    padding: 4px 12px;
+}
+/* child selector */
+div > p{
+    background-color: black;
+}
+ /* adjecent sibling selector */
+h1+ p{
+    background-color: blanchedalmond;
+    font-style: italic;
+}
+/* pseudo class selector */
+a:hover{
+    background-color: #000;
+    color:wheat;
+}
