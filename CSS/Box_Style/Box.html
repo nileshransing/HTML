@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Box </title>
+</head>
+<link rel="stylesheet" href="box.css">
+<body>
+
+    <h1>
+        Css box model example
+    </h1>
+    <h2>Content-box (Default) </h2>
+    <div class="box-model-demo content-box">
+        <p>This is content-box element</p>
+        <p>Width 300px + 40px (padding ) + 10px (border) =350px</p>
+        <p>height 200px + 40px (padding ) + 10px (border) =250px</p>
+    </div>
+
+    <div class="box-model-demo border-box">
+
+        <p> This is border-box model</p>
+        <p>Width 300px + (including padding and border)</p>
+        <p>Width 200px + (including padding and border)</p>
+    </div>
+    <h2>Inline vs block element</h2>
+    <p>this is paragraph with an
+        <span class="inline-element"> inline element</span>
+
+    only take up as much width as necessry and allow other element next to them.
+    </p>
+    
+    <div class="block-example">
+        
+        this is block level element. it take up the full width available and creates a new line before and after it.
+    </div>
+ <h2> box model component </h2>
+<p> the box model consists of:</p>
+<ul>
+    <li>
+        <span class="highlight"> content</span>: the actual content of box, where the text and image appear
+    </li>
+    <li>
+        <span class="highlight">padding</span>: clears an area around the content (inside the border)
+    </li>
+    <li><span class="highlight">border</span>: the border goes around the  paddint and content 
+
+    </li>
+    <li>
+        <span class="highlight">margin</span>: clears an area outside the border
+    </li>
+     </ul>
+    </body>
+</html>
