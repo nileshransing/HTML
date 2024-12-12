@@ -1,0 +1,47 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    padding: 10px;
+}
+.box-model-demo{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border: 8px solid black;
+    margin: 10px;
+    background-color: lightpink;
+}
+.content-box{
+    box-sizing: content-box;
+    background-color: aqua;
+    color: black;
+}
+.border-box{
+    box-sizing: border-box;
+    background-color: lightgreen;
+}
+.inline-element{
+    display: inline;
+    background-color: lightskyblue;
+    padding: 10px;
+    margin: 10px;
+    /*Inline elements ignore width and height*/
+
+    width: 200px;
+    height: 100px;
+}
+.block-exampl{
+    margin: 0;
+}
+.block-example{
+    display: block;
+    padding: 10px;
+    
+    background-color: limegreen;
+    width: 200px;
+    height: 100px;
+}
+.highlight{
+    display: inline-block;
+    background-color:yellow;
+}
